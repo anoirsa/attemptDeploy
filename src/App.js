@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+         <p>{process.env.REACT_APP_PALY}</p> 
         </a>
       </header>
     </div>
